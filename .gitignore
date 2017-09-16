@@ -1,9 +1,11 @@
 # dependencies
 
-node_modules/
+/node_modules
 public/dist/
 .env.test
 .env.development
+bundle.js
+.DS_Store
 
 # testing
 /coverage
