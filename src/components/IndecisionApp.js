@@ -16,7 +16,7 @@ class IndecisionApp extends React.Component {
       try {
 
           const json = localStorage.getItem('options')
-          const optiosn = JSON.parse(json);
+          const options = JSON.parse(json);
 
           if(options){
               this.setState(() => ({ options }))
